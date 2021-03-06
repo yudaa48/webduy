@@ -7,15 +7,14 @@
           <div class="row">
 
             <div class="col-lg-3 col-md-6 footer-info">
-              <h3>Comika Entertainment</h3>
+              <h3>Webduy Development</h3>
               <p>
-                DKI Jakarta <br>
-                Indonesia<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                Cibinong, Bogor <br>
+                Jawa Barat, Indonesia<br><br>
+                <strong>Phone:</strong> +62 895 2110 6758<br>
+                <strong>Email:</strong> hello@webduy.id<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               </div>
@@ -25,21 +24,21 @@
               <h4>Useful Links</h4>
               <ul>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">About Us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Blog</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
               </ul>
             </div>
 
             <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Our Business Ecosystems</h4>
+              <h4>Our Best Services</h4>
               <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Comika Management</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Comika Event</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="https://comika.id/" target="_blank">Comika Indonesia</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Comika Clothing</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="https://www.comikacomedy.club/" target="_blank">Comika Comedy Club</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Comika Pecahkan</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Company Profile</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Landing Page</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Shop</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Bundling Package</a></li>
               </ul>
             </div>
 
@@ -47,7 +46,7 @@
               <h4>Latest Article</h4>
               <?php foreach (get_posts(array('numberposts' => 1)) as $post) : setup_postdata($post);?>
                 <p><?php the_title(); ?></p>
-                <p><?php echo get_the_date(); ?><p><br>
+                <p><?php echo get_the_date(); ?><p>
 
                 <h6><?php the_excerpt(); ?></h6>
 
@@ -62,7 +61,7 @@
 
       <div class="container">
         <div class="copyright">
-          Copyright &copy; <?php echo date('Y'); ?> <strong><span>Comika Entertainment</span></strong>.<br> All Rights Reserved
+          Copyright &copy; <?php echo date('Y'); ?> <strong><span>Webduy Development</span></strong>.<br> All Rights Reserved
         </div>
       </div>
     </footer>
