@@ -9,7 +9,6 @@
 
   <meta content="" name="description">
   <meta content="" name="keywords">
-  <link href="wp-content/themes/web-landing/assets/img/logo.png" rel="icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
@@ -33,8 +32,8 @@
       <nav class="nav-menu float-right d-none d-lg-block">
         <ul>
           <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>">Home</a></li>
-          <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/">Services</a></li>
-          <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/about-us/">About Us</a></li>
+          <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/">Layanan</a></li>
+          <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/about-us/">Tentang Kami</a></li>
           <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/blog/">Blog</a></li>
         </ul>
       </nav><!-- .nav-menu -->

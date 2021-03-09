@@ -182,6 +182,17 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   max-height: 40px;
 }
 
+.brand {
+  font-size: 2rem;
+  margin: 0;
+  padding: 10px 0;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #5c768d;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -390,6 +401,78 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #fff;
 }
 
+.card {
+  box-shadow: none !important;
+  border: none !important;
+  padding: 1rem; 
+  border-radius: 2rem !important;
+  
+  h3 {
+  color: #000;
+  font-weight: 500;
+  // margin-bottom: 1rem;
+  }
+
+  span {
+    font-size: 7rem;
+    font-weight: 500;
+  }
+
+  p {
+    margin: 0 !important;
+  }
+
+  i {
+    // margin-top: 1rem;
+  }
+
+  ol {
+    padding: 0 !important;
+  }
+
+  li {
+    border-bottom: 1px solid #24B1B8;
+    margin-bottom: 1rem;
+  }
+}
+
+.card:hover {
+  background-color: #24B1B8;
+  color: white !important;
+
+  h3{
+    color: #fff !important;
+  }
+
+  li {
+    border-bottom: 1px solid #fff !important;
+  }
+
+  a {
+    @extend .btn-light;
+  }
+} 
+
+// @media (max-width: 1023px) {
+//   .card {
+//     background-color: #24B1B8;
+//     color: white !important;
+
+//     h3{
+//       color: #fff !important;
+//     }
+
+//     li {
+//       border-bottom: 1px solid #fff !important;
+//     }
+
+//     .btn-primary a {
+//       background-color: #f8f9fa !important;
+//       border-color: #f8f9fa !important;
+//       color: #212529 !important;
+//     }
+//   } 
+// }
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -442,7 +525,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     height: calc(100vh - 70px);
   }
   #hero .carousel-content.container {
-    padding: 0 50px;
+    // padding: 0 50px;
+  }
+  #hero h1 {
+    font-size: 2rem !important;
   }
 }
 
@@ -450,6 +536,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
+  font-weight: 900;
+}
+
+#hero h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 4rem;
   font-weight: 900;
 }
 
@@ -503,7 +596,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -532,7 +625,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 @media (min-width: 1024px) {
   #hero p {
-    width: 60%;
+    // width: 60%;
+    font-size: 1.2rem;
   }
   #hero .carousel-control-prev, #hero .carousel-control-next {
     width: 5%;
@@ -544,6 +638,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
+background-color: #f5f9fc;
 }
 
 .section-bg {
@@ -567,50 +662,25 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 15px 0;
-  background-color: #f5f9fc;
-  min-height: 40px;
+.about-lists h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #000;
 }
 
-.breadcrumbs h2 {
-  font-size: 24px;
-  font-weight: 300;
+.section--services h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #000;
 }
 
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #6c757d;
-  content: "/";
-}
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-  .breadcrumbs ol {
-    display: block;
-  }
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
+.section--services .card{
+  margin: 1rem;
+  align-items:center;
 }
 
 /*--------------------------------------------------------------
@@ -621,7 +691,7 @@ section {
 }
 
 .about .container {
-  box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+  // box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
 }
 
 .about .video-box img {
@@ -809,12 +879,14 @@ section {
 
 .about-lists .content-item span {
   display: block;
-  font-size: 24px;
+  font-size: 4rem;
+  text-align: center;
   font-weight: 400;
   color: #9eccf4;
 }
 
-.about-lists .content-item h4 {
+.about-lists .content-item h3 {
+  text-align: center;
   font-size: 28px;
   font-weight: 400;
   padding: 0;
@@ -822,7 +894,8 @@ section {
 }
 
 .about-lists .content-item p {
-  color: #aaaaaa;
+  text-align: center;
+  // color: #aaaaaa;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -864,7 +937,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 14px;
 }
 
@@ -1408,7 +1481,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #fff;
 }
 
@@ -1526,4 +1599,192 @@ section {
 
 #footer .credits a {
   color: #9eccf4;
+}
+
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* line 132, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog_area a {
+  color: "Roboto", sans-serif !important;
+  text-decoration: none;
+  transition: .4s;
+}
+
+/* line 136, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog_area a:hover, .blog_area a :hover {
+  background: -webkit-linear-gradient(131deg, #14435c 0%, #14435c 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  transition: .4s;
+}
+
+/*============ blog_left_sidebar css ==============*/
+/* line 647, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog_item {
+  margin-bottom: 50px;
+}
+
+/* line 651, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog_details {
+  padding: 30px 0 20px 10px;
+  box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+}
+
+@media (min-width: 768px) {
+  /* line 651, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+  .blog_details {
+    padding: 60px 30px 35px 35px;
+  }
+}
+
+/* line 659, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog_details p {
+  margin-bottom: 30px;
+}
+
+/* line 663, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog_details a {
+  color: #242b5e;
+}
+
+/* line 666, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog_details a:hover {
+  color: #ff2143;
+}
+
+/* line 671, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog_details h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  /* line 671, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+  .blog_details h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+}
+
+/* line 685, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog-info-link li {
+  float: left;
+  font-size: 14px;
+}
+
+/* line 689, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog-info-link li a {
+  color: #999999;
+}
+
+/* line 693, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog-info-link li i,
+.blog-info-link li span {
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+/* line 699, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog-info-link li::after {
+  content: "|";
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 705, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog-info-link li:last-child::after {
+  display: none;
+}
+
+/* line 710, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog-info-link::after {
+  content: "";
+  display: block;
+  clear: both;
+  display: table;
+}
+
+/* line 718, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog_item_img {
+  position: relative;
+}
+
+/* line 721, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog_item_img .blog_item_date {
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
+  display: block;
+  color: #fff;
+  background-color: #14435c;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  /* line 721, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+  .blog_item_img .blog_item_date {
+    bottom: -20px;
+    left: 40px;
+    padding: 13px 30px;
+  }
+}
+
+/* line 737, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog_item_img .blog_item_date h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  /* line 737, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+  .blog_item_img .blog_item_date h3 {
+    font-size: 30px;
+  }
+}
+
+/* line 749, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+.blog_item_img .blog_item_date p {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  /* line 749, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
+  .blog_item_img .blog_item_date p {
+    font-size: 18px;
+  }
+}
+.section-home{
+  background-image: url('../assets/images/tugu-kujang.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white !important;
+}
+.section-services{
+  background-image: url('../assets/images/slide-1.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white !important;
+}
+.section-about-us{
+  background-image: url('../assets/images/slide-2.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white !important;  
+}
+.section-blog{
+  background-image: url('../assets/images/slide-3.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white !important;    
 }
