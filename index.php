@@ -87,23 +87,7 @@ get_header();
               </ol>
               <a href="#" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
             </div>
-          </div>
-          <div class="row d-flex justify-content-center">
             <div class="col-lg-4 card" data-aos="fade-up" data-aos-delay="500">
-              <p>Paket Website</p>
-              <h3>Toko Online</h3>
-              <h3 class="mb-3">(E-Commerce)</h3>
-              <i>Mulai Dari</i>
-              <span>600K</span>
-              <i>Termasuk</i>
-              <ol>
-                <li class="mt-3">Gratis Domain .com</li>
-                <li>Gratis Hosting</li>
-                <li>Desain dan Fitur</li>
-              </ol>
-              <a href="#" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
-            </div>
-            <div class="col-lg-4 card" data-aos="fade-up" data-aos-delay="600">
               <p>Paket Website</p>
               <h3>Profile Bisnis &</h3>
               <h3 class="mb-3">Landing Page</h3>
@@ -115,6 +99,21 @@ get_header();
                 <li>Landing Page Menggunakan <br>Subdomain</li>
                 <li>Gratis Hosting</li>
                 <li>Desain dan Fitur</li>
+              </ol>
+              <a href="#" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
+            </div>
+            <div class="col-lg-4 card" data-aos="fade-up" data-aos-delay="600">
+              <p>Paket Website</p>
+              <h3>Toko Online</h3>
+              <h3 class="mb-3">(E-Commerce)</h3>
+              <i>Mulai Dari</i>
+              <span>SOON</span>
+              <i>Termasuk</i>
+              <ol>
+                <li class="mt-3">Gratis Domain .com</li>
+                <li>Gratis Hosting</li>
+                <li>Desain dan Fitur</li>
+                <li>Pilihan Layanan Pengiriman</li>
               </ol>
               <a href="#" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
             </div>
@@ -241,7 +240,7 @@ get_header();
             <div class="info-box">
               <i class="bx bx-envelope"></i>
               <h3>Email Kami</h3>
-              <a href="mailto:hello@webduy.id" target="_blank"><p>hello@webduy.id</p></a>
+              <p>hello@webduy.id</p>
             </div>
           </div>
 
