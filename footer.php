@@ -21,11 +21,11 @@
             </div>
 
             <div class="col-lg-2 col-md-6 footer-links">
-              <h4>Useful Links</h4>
+              <h4>Akses Cepat</h4>
               <ul>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">About Us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Layanan</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Tentang Kami</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Blog</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
@@ -33,17 +33,17 @@
             </div>
 
             <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Our Best Services</h4>
+              <h4>Layanan Kami</h4>
               <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Company Profile</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Landing Page</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Shop</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Bundling Package</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Profil Bisnis</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Toko Online</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Paket Website</a></li>
               </ul>
             </div>
 
             <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Latest Article</h4>
+              <h4>Tulisan Terbaru</h4>
               <?php foreach (get_posts(array('numberposts' => 1)) as $post) : setup_postdata($post);?>
                 <p><?php the_title(); ?></p>
                 <p><?php echo get_the_date(); ?><p>

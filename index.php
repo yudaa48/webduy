@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-    <!-- ======= Hero Section ======= -->
+  <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
       <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -127,58 +127,88 @@ get_header();
       <div class="container" data-aos="fade-up" data-aos-delay="700">
 
         <div class="section-title">
-          <h2>What We Have Done</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Portofolio <span class="brand">Webduy.id</span></h2>
+          <p>Berikut merupakan portofolio yang sudah kami kerjakan sebelumnya.<br>Apakah Anda berikutnya? Mari bergabung dengan kami.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-landing">Landing Page</li>
+              <li data-filter=".filter-profil">Profil Bisnis</li>
+              <li data-filter=".filter-toko">Toko Online</li>
+              <li data-filter=".filter-produk">Custom Product</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-landing">
             <div class="portfolio-wrap">
-              <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/portfolio-2.jpg' ); ?>" class="img-fluid" alt="">
+              <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/tripo-1.png' ); ?>" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4>Tripo 3000</h4>
+                <p>Profile Bisnis</p>
                 <div class="portfolio-links">
-                  <a href="<?php echo get_theme_file_uri( 'assets/img/portfolio/portfolio-2.jpg' ); ?>" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="icofont-eye"></i></a>
-                  <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/portfolio-details/" title="More Details"><i class="icofont-external-link"></i></a>
+                  <a href="<?php echo get_theme_file_uri( 'assets/img/portfolio/tripo-1.png' ); ?>" data-gall="portfolioGallery" class="venobox" title="Tripo 3000"><i class="icofont-eye"></i></a>
+                  <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/portfolio-details-tripo3000/" target="_blank" title="More Details"><i class="icofont-external-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-produk">
             <div class="portfolio-wrap">
-              <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/portfolio-5.jpg' ); ?>" class="img-fluid" alt="">
+              <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/peta-pesta-1.png' ); ?>" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
+                <h4>Peta Pesta</h4>
+                <p>Custom Product</p>
                 <div class="portfolio-links">
-                  <a href="<?php echo get_theme_file_uri( 'assets/img/portfolio/portfolio-5.jpg' ); ?>" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="icofont-eye"></i></a>
-                  <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/portfolio-details/" title="More Details"><i class="icofont-external-link"></i></a>
+                  <a href="<?php echo get_theme_file_uri( 'assets/img/portfolio/peta-pesta.png' ); ?>" data-gall="portfolioGallery" class="venobox" title="Peta Pesta"><i class="icofont-eye"></i></a>
+                  <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/portfolio-details-petapesta/" target="_blank" title="More Details"><i class="icofont-external-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-profil">
+            <div class="portfolio-wrap">
+              <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/terralogiq-1.png' ); ?>" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>PT. Terralogiq Integrasi Solusi</h4>
+                <p>Profile Bisnis</p>
+                <div class="portfolio-links">
+                  <a href="<?php echo get_theme_file_uri( 'assets/img/portfolio/terralogiq-1.png' ); ?>" data-gall="portfolioGallery" class="venobox" title="PT. Terralogiq Integrasi Solusi"><i class="icofont-eye"></i></a>
+                  <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/portfolio-details-terralogiq/" target="_blank" title="More Details"><i class="icofont-external-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-profil">
+            <div class="portfolio-wrap">
+              <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/himsi-bogor-1.png' ); ?>" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Himpunan Mahasiswa Sistem Informasi Kota Bogor</h4>
+                <p>Profile Organisasi</p>
+                <div class="portfolio-links">
+                  <a href="<?php echo get_theme_file_uri( 'assets/img/portfolio/himsi-bogor.png' ); ?>" data-gall="portfolioGallery" class="venobox" title="Himpunan Mahasiswa Sistem Informasi Kota Bogor"><i class="icofont-eye"></i></a>
+                  <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/portfolio-details-himsi/" target="_blank" title="More Details"><i class="icofont-external-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-toko">
             <div class="portfolio-wrap">
               <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/portfolio-9.jpg' ); ?>" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4>Your Business Will Be Here</h4>
+                <p>Contact Us Now!</p>
                 <div class="portfolio-links">
-                  <a href="<?php echo get_theme_file_uri( 'assets/img/portfolio/portfolio-9.jpg' ); ?>" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="icofont-eye"></i></a>
-                  <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/portfolio-details/" title="More Details"><i class="icofont-external-link"></i></a>
+                  <a href="<?php echo get_theme_file_uri( 'assets/img/portfolio/portfolio-9.jpg' ); ?>" data-gall="portfolioGallery" class="venobox" title="Your Business Here"><i class="icofont-eye"></i></a>
                 </div>
               </div>
             </div>
@@ -194,7 +224,7 @@ get_header();
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact Us</h2>
+          <h2>Hubungi Kami</h2>
         </div>
 
         <div class="row">
@@ -202,28 +232,28 @@ get_header();
           <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="info-box">
               <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
-              <p>DKI Jakarta, Indonesia</p>
+              <h3>Alamat Kami</h3>
+              <p>Cibinong, Bogor<br>Jawa Barat, Indonesia</p>
             </div>
           </div>
 
           <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="800">
             <div class="info-box">
               <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
-              <p>info@example.com<br>contact@example.com</p>
+              <h3>Email Kami</h3>
+              <a href="mailto:hello@webduy.id" target="_blank"><p>hello@webduy.id</p></a>
             </div>
           </div>
 
           <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="900">
             <div class="info-box ">
               <i class="bx bx-phone-call"></i>
-              <h3>Call Us</h3>
-              <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+              <h3>Telepon Kami</h3>
+              <p>+62 8952 1106 758</p>
             </div>
           </div>
 
-          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="1000">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-lg-6 form-group">

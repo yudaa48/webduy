@@ -104,48 +104,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 /*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
-#topbar {
-  background: #fff;
-  padding: 10px 0;
-  border-bottom: 1px solid #eee;
-  font-size: 14px;
-}
-
-#topbar .contact-info a {
-  line-height: 1;
-  color: #444;
-  transition: 0.3s;
-}
-
-#topbar .contact-info a:hover {
-  color: #428bca;
-}
-
-#topbar .contact-info i {
-  color: #428bca;
-  padding: 4px;
-}
-
-#topbar .contact-info .icofont-phone {
-  padding-left: 20px;
-  margin-left: 10px;
-}
-
-#topbar .social-links a {
-  color: #5c768d;
-  padding: 4px 12px;
-  display: inline-block;
-  line-height: 1px;
-  transition: 0.3s;
-}
-
-#topbar .social-links a:hover {
-  color: #428bca;
-}
-
-/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
@@ -453,26 +411,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   }
 } 
 
-// @media (max-width: 1023px) {
-//   .card {
-//     background-color: #24B1B8;
-//     color: white !important;
-
-//     h3{
-//       color: #fff !important;
-//     }
-
-//     li {
-//       border-bottom: 1px solid #fff !important;
-//     }
-
-//     .btn-primary a {
-//       background-color: #f8f9fa !important;
-//       border-color: #f8f9fa !important;
-//       color: #212529 !important;
-//     }
-//   } 
-// }
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -1014,6 +952,10 @@ background-color: #f5f9fc;
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+}
+
+.portfolio h2{
+  color: #000;
 }
 
 .portfolio #portfolio-flters {

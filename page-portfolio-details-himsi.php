@@ -6,12 +6,8 @@ get_header();
     <section class="breadcrumbs">
       <div class="container">
 
-        <div class="d-flex justify-content-between align-items-center">
-          <h2><?php echo get_the_title()?></h2>
-          <ol>
-            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>">Home</a></li>
-            <li><?php echo get_the_title()?></li>
-          </ol>
+        <div class="text-center">
+          <h1><?php echo get_the_title()?><br>Himpunan Mahasiswa Sistem Informasi<br>Kota Bogor</h1>
         </div>
 
       </div>
@@ -24,18 +20,18 @@ get_header();
         <div class="portfolio-details-container">
 
           <div class="owl-carousel portfolio-details-carousel">
-            <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/portfolio-details-1.jpg' ); ?>" class="img-fluid" alt="">
-            <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/portfolio-details-2.jpg' ); ?>" class="img-fluid" alt="">
-            <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/portfolio-details-3.jpg' ); ?>" class="img-fluid" alt="">
+            <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/himsi-bogor-1.png' ); ?>" class="img-fluid" alt="">
+            <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/himsi-bogor-2.png' ); ?>" class="img-fluid" alt="">
+            <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/himsi-bogor-3.png' ); ?>" class="img-fluid" alt="">
           </div>
 
           <div class="portfolio-info">
             <h3>Project information</h3>
             <ul>
-              <li><strong>Category</strong>: Web design</li>
-              <li><strong>Client</strong>: ASU Company</li>
-              <li><strong>Project date</strong>: 01 March, 2020</li>
-              <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+              <li><strong>Category</strong>: Profil Organisasi</li>
+              <li><strong>Client</strong>: Himpunan Mahasiswa Sistem<br>Informasi Kota Bogor</li>
+              <li><strong>Project date</strong>: 01 Maret, 2020</li>
+              <li><strong>Project URL</strong>: <a href="http://himsiubsibogor.rf.gd/" target="_blank">www.himsiubsibogor.rf.gd</a></li>
             </ul>
           </div>
 
