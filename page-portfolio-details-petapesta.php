@@ -38,9 +38,9 @@ get_header();
         </div>
 
         <div class="portfolio-description">
-          <h2>This is an example of portfolio detail</h2>
+          <h2>Detail Portfolio</h2>
           <p>
-            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+            Peta Pesta merupakan sebuah platform musik virtual yang dirilis pada bulan Oktober 2020. Saya bertindak sebagai Front End Developer dalam project ini. Berawal dari PSBB di sebagian besar Indonesia termasuk provinsi DKI Jakarta menyebabkan banyak pelaku seni dibidang musik menjadi kesulitan mengadakan event musik secara langsung atau offline. Hadirnya Peta Peta diharapkan dapat menjadi sebuah pionir platform persebaran event musik virtual diatas tampilan peta.
           </p>
         </div>
       </div>

@@ -38,9 +38,9 @@ get_header();
         </div>
 
         <div class="portfolio-description">
-          <h2>This is an example of portfolio detail</h2>
+          <h2>Detail Portfolio</h2>
           <p>
-            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+            Tripo 3000 adalah penyelenggara acara yang memenangkan banyak penghargaan sejak tahun 2008. Dimulai sebagai Tripomatica di Melbourne, diubah namanya menjadi Tripo 3000 pada tahun 2014.<br><br>Tripo 3000 secara konsisten menghadirkan ide-ide sebelumnya, memberikan pengalaman avant-garde dan elemen kejutan pada berbagai acara. Future-Oriented Junk ditanam di setiap produksi.
           </p>
         </div>
       </div>

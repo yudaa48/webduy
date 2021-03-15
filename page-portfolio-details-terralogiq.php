@@ -38,9 +38,9 @@ get_header();
         </div>
 
         <div class="portfolio-description">
-          <h2>This is an example of portfolio detail</h2>
+          <h2>Detail Portfolio</h2>
           <p>
-            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+            PT. Terralogiq Integrasi Solusi adalah perusahaan pertama dan satu-satunya yang menjadi Google Maps Premier Partner di Indonesia. Dalam pengembangan website resmi Terralogiq, saya menerima tanggung jawab untuk dapat memastikan website berjalan dengan lancar tanpa kendala, kemudian saya juga bertindak sebagai Front End Developer bila ada penambahan fitur atau adanya pengembangan tampilan baru untuk website Terralogiq.
           </p>
         </div>
       </div>

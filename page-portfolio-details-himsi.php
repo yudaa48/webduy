@@ -31,16 +31,16 @@ get_header();
               <li><strong>Category</strong>: Profil Organisasi</li>
               <li><strong>Client</strong>: Himpunan Mahasiswa Sistem<br>Informasi Kota Bogor</li>
               <li><strong>Project date</strong>: 01 Maret, 2020</li>
-              <li><strong>Project URL</strong>: <a href="http://himsiubsibogor.rf.gd/" target="_blank">www.himsiubsibogor.rf.gd</a></li>
+              <li><strong>Project URL</strong>: <a href="http://himsiubsibogor.com" target="_blank">www.himsiubsibogor.com</a></li>
             </ul>
           </div>
 
         </div>
 
         <div class="portfolio-description">
-          <h2>This is an example of portfolio detail</h2>
+          <h2>Detail Portfolio</h2>
           <p>
-            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+            Dalam pengembangannya, website Himpunan Mahasiswa Sistem Informasi Kota Bogor yang disebut juga sebagai HIMSI Bogor ini didirikan untuk dapat memperkenalkan HIMSI Bogor lebih luas lagi. Peran saya dalam pengembangan ini adalah sebagai salah satu inisiator pengembangan website HIMSI Bogor ini.<br><br>Pengembangan website HIMSI Bogor ini dilakukan turun temurun sejak tahun 2020 dan masih akan terus mengalami perubahan dari sisi tampilan hingga pengalaman pengguna. 
           </p>
         </div>
       </div>

@@ -72,7 +72,7 @@ get_header();
                 <li>Gratis Hosting</li>
                 <li>Desain dan Fitur</li>
               </ol>
-              <a href="#" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
+              <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
             </div>
             <div class="col-lg-4 card" data-aos="fade-up" data-aos-delay="400">
               <p>Paket Website</p>
@@ -85,7 +85,7 @@ get_header();
                 <li>Gratis Hosting</li>
                 <li>Desain dan Fitur</li>
               </ol>
-              <a href="#" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
+              <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
             </div>
             <div class="col-lg-4 card" data-aos="fade-up" data-aos-delay="500">
               <p>Paket Website</p>
@@ -100,7 +100,7 @@ get_header();
                 <li>Gratis Hosting</li>
                 <li>Desain dan Fitur</li>
               </ol>
-              <a href="#" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
+              <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
             </div>
             <div class="col-lg-4 card" data-aos="fade-up" data-aos-delay="600">
               <p>Paket Website</p>
@@ -115,7 +115,7 @@ get_header();
                 <li>Desain dan Fitur</li>
                 <li>Pilihan Layanan Pengiriman</li>
               </ol>
-              <a href="#" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
+              <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
             </div>
           </div>
       </div>
@@ -218,73 +218,6 @@ get_header();
       </div>
     </section><!-- End Our Portfolio Section -->
 
-    <!-- ======= Contact Us Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Hubungi Kami</h2>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="info-box">
-              <i class="bx bx-map"></i>
-              <h3>Alamat Kami</h3>
-              <p>Cibinong, Bogor<br>Jawa Barat, Indonesia</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="800">
-            <div class="info-box">
-              <i class="bx bx-envelope"></i>
-              <h3>Email Kami</h3>
-              <p>hello@webduy.id</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="900">
-            <div class="info-box ">
-              <i class="bx bx-phone-call"></i>
-              <h3>Telepon Kami</h3>
-              <p>+62 8952 1106 758</p>
-            </div>
-          </div>
-
-          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="1000">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="col-lg-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="col-lg-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Us Section -->
 </main>
   <!-- End #main -->
 <?php

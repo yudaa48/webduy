@@ -5222,7 +5222,7 @@ a.text-dark:hover, a.text-dark:focus {
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif !important;
   color: #444; }
 
 a {
@@ -5302,7 +5302,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #5c768d; }
+  color: #5c768d !important;
+  display: unset !important; }
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -5506,6 +5507,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   .card:hover li {
     border-bottom: 1px solid #fff !important; }
 
+.modal-dialog {
+  position: relative !important;
+  width: 100% !important;
+  margin-top: 5rem !important;
+  padding-right: 1rem !important;
+  pointer-events: none !important; }
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -5656,7 +5664,7 @@ section {
   font-weight: 600;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #5c768d; }
+  color: #000; }
 
 .section-title p {
   margin-bottom: 0; }
@@ -5855,13 +5863,15 @@ section {
   margin: 0;
   padding: 0; }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .about-listss {
     padding: 40px 0; }
   .bx.bxs-chevron-right {
-    display: none; }
+    transform: rotate(90deg); }
   .content-items {
-    padding-bottom: 3rem; } }
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto; } }
 
 /*--------------------------------------------------------------
 # About Lists Home Page
@@ -6314,12 +6324,21 @@ section {
 .contact .php-email-form textarea {
   padding: 12px 15px; }
 
-.contact .php-email-form button[type="submit"] {
-  background: #428bca;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s; }
+.wpforms-container {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6) !important;
+  padding: 30px !important; }
+
+.wpforms-submit-container {
+  display: flex !important;
+  justify-content: center !important; }
+
+div.wpforms-container-full .wpforms-form input[type=submit],
+div.wpforms-container-full .wpforms-form button[type=submit] {
+  background: #428bca !important;
+  border: 0 !important;
+  padding: 10px 24px !important;
+  color: #fff !important;
+  transition: 0.4s !important; }
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #6aa3d5; }
