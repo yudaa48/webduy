@@ -49,7 +49,7 @@ get_header();
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
             <span class="icon"><i class='bx bx-support'></i></span>
             <h3>Layanan Support</h3>
-            <p>Membantu Anda dalam mengelola dan membuat website selalu ready-to-go serta memastikan bahwa website selalu aman dan tidak mengalami kendala.</p>
+            <p>Membantu Anda dalam mengelola website dengan aman dan tidak mengalami kendala.</p>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@ get_header();
               <p>Paket Website</p>
               <h3 class="mb-3">Landing Page</h3>
               <i>Mulai Dari</i>
-              <span>300K</span>
+              <span>400K</span>
               <i>Termasuk</i>
               <ol>
                 <li class="mt-3">Gratis Domain .com</li>
@@ -78,7 +78,7 @@ get_header();
               <p>Paket Website</p>
               <h3 class="mb-3">Profile Bisnis</h3>
               <i>Mulai Dari</i>
-              <span>500K</span>
+              <span>600K</span>
               <i>Termasuk</i>
               <ol>
                 <li class="mt-3">Gratis Domain .com</li>
@@ -92,7 +92,7 @@ get_header();
               <h3>Profile Bisnis &</h3>
               <h3 class="mb-3">Landing Page</h3>
               <i>Mulai Dari</i>
-              <span>700K</span>
+              <span>900K</span>
               <i>Termasuk</i>
               <ol>
                 <li class="mt-3">Gratis Domain .com</li>
@@ -217,6 +217,33 @@ get_header();
 
       </div>
     </section><!-- End Our Portfolio Section -->
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="section-title">
+          <h2>Frequently Ask Question</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-xs-12 faq-item" data-aos="fade-up" data-aos-delay="800">
+            <h4>Pertanyaan</h4>
+            <p>Jawaban</p>
+          </div>
+          <div class="col-md-6 col-xs-12 faq-item" data-aos="fade-up" data-aos-delay="900">
+            <h4>Pertanyaan</h4>
+            <p>Jawaban</p>
+          </div>
+          <div class="col-md-6 col-xs-12 faq-item" data-aos="fade-up" data-aos-delay="1000">
+            <h4>Pertanyaan</h4>
+            <p>Jawaban</p>
+          </div>
+          <div class="col-md-6 col-xs-12 faq-item" data-aos="fade-up" data-aos-delay="1100">
+            <h4>Pertanyaan</h4>
+            <p>Jawaban</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
 </main>
   <!-- End #main -->

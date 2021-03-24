@@ -10,31 +10,32 @@
 
         <div class="row">
 
-          <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="info-box">
-              <i class="bx bx-map"></i>
-              <h3>Alamat Kami</h3>
-              <p>Cibinong, Bogor<br>Jawa Barat, Indonesia</p>
+          <div class="col-lg-3 my-auto" data-aos="fade-up">
+            <div class="row">
+              <div class="info-box">
+                <i class="bx bx-map"></i>
+                <h3>Alamat Kami</h3>
+                <p>Cibinong, Bogor<br>Jawa Barat, Indonesia</p>
+              </div>              
+            </div>
+            <div class="row">
+              <div class="info-box">
+                <i class="bx bx-envelope"></i>
+                <h3>Email Kami</h3>
+                <p>hello@webduy.id</p>
+                <p>yudaa0110@gmail.com</p>
+              </div>              
+            </div>
+            <div class="row">
+              <div class="info-box">
+                <i class="bx bx-phone-call"></i>
+                <h3>Hubungi Kami</h3>
+                <p>+62 8952-1106-758</p>
+              </div>              
             </div>
           </div>
 
-          <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="800">
-            <div class="info-box">
-              <i class="bx bx-envelope"></i>
-              <h3>Email Kami</h3>
-              <p>hello@webduy.id</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="900">
-            <div class="info-box ">
-              <i class="bx bx-phone-call"></i>
-              <h3>Telepon Kami</h3>
-              <p>+62 8952 1106 758</p>
-            </div>
-          </div>
-
-          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="1000">
+          <div class="col-lg-9" data-aos="fade-up">
             <?php echo do_shortcode('[wpforms id="35" title="false"]'); ?>
           </div>
 
@@ -65,10 +66,10 @@
             <div class="col-lg-2 col-md-6 footer-links">
               <h4>Akses Cepat</h4>
               <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Layanan</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Tentang Kami</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Blog</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/">Layanan</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/about-us/">Tentang Kami</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/blog/">Blog</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
               </ul>
@@ -77,10 +78,10 @@
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Layanan Kami</h4>
               <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Landing Page</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Profil Bisnis</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Toko Online</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Paket Website</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/">Landing Page</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/">Profil Bisnis</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/">Toko Online</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/">Paket Website</a></li>
               </ul>
             </div>
 

@@ -13,7 +13,7 @@ get_header();
               <div class="carousel-content container">
                 <div class="col-md-8">
                   <h1 class="animate__animated animate__fadeInDown">Layanan Kami</h1>
-                  <p class="animate__animated animate__fadeInUp">Layanan kami menawarkan pengembangan website bisnis yang modern dan terkini. Pengembangan dilakukan secara teliti dengan memerhatikan responsibilitas terhadap perangkat apapun. Hasil dari pengembangan website dapat mempermudah pelanggan Anda menemukan perusahaan Anda di internet.</p>                  
+                  <p class="animate__animated animate__fadeInUp">Layanan kami menawarkan pengembangan website bisnis yang kekinian. Pengembangan dilakukan secara teliti dengan memerhatikan responsibilitas terhadap perangkat apapun. Hasil dari pengembangan website dapat mempermudah pelanggan Anda menemukan perusahaan Anda di internet.</p>                  
                 </div>
               </div>
             </div>
@@ -88,34 +88,34 @@ get_header();
               <p>Paket Website</p>
               <h3 class="mb-3">Landing Page</h3>
               <i>Mulai Dari</i>
-              <span>300K</span>
+              <span>400K</span>
               <i>Termasuk</i>
               <ol>
                 <li class="mt-3">Gratis Domain .com</li>
                 <li>Gratis Hosting</li>
                 <li>Desain dan Fitur</li>
               </ol>
-              <a href="#" class="btn btn-primary" type="button" data-toggle="modal" data-target="#exampleModal"><i class='bx bx-pointer'></i> Detail Layanan</a>
+              <a href="#" class="btn btn-primary" type="button" data-toggle="modal" data-target="#landingPage"><i class='bx bx-pointer'></i> Detail Layanan</a>
             </div>
             <div class="col-lg-4 card" data-aos="fade-up" data-aos-delay="600">
               <p>Paket Website</p>
               <h3 class="mb-3">Profile Bisnis</h3>
               <i>Mulai Dari</i>
-              <span>500K</span>
+              <span>600K</span>
               <i>Termasuk</i>
               <ol>
                 <li class="mt-3">Gratis Domain .com</li>
                 <li>Gratis Hosting</li>
                 <li>Desain dan Fitur</li>
               </ol>
-              <a href="#" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
+              <a href="#" class="btn btn-primary" type="button" data-toggle="modal" data-target="#profileBisnis"><i class='bx bx-pointer'> Detail Layanan</a>
             </div>
             <div class="col-lg-4 card" data-aos="fade-up" data-aos-delay="700">
               <p>Paket Website</p>
               <h3>Profile Bisnis &</h3>
               <h3 class="mb-3">Landing Page</h3>
               <i>Mulai Dari</i>
-              <span>700K</span>
+              <span>900K</span>
               <i>Termasuk</i>
               <ol>
                 <li class="mt-3">Gratis Domain .com</li>
@@ -123,7 +123,7 @@ get_header();
                 <li>Gratis Hosting</li>
                 <li>Desain dan Fitur</li>
               </ol>
-              <a href="#" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
+              <a href="#" class="btn btn-primary" type="button" data-toggle="modal" data-target="#PaketWebsite"><i class='bx bx-pointer'> Detail Layanan</a>
             </div>
             <div class="col-lg-4 card" data-aos="fade-up" data-aos-delay="800">
               <p>Paket Website</p>
@@ -138,7 +138,7 @@ get_header();
                 <li>Desain dan Fitur</li>
                 <li>Pilihan Layanan Pengiriman</li>
               </ol>
-              <a href="#" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
+              <a href="#" class="btn btn-primary" type="button" data-toggle="modal" data-target="#tokoOnline"><i class='bx bx-pointer'> Detail Layanan</a>
             </div>
           </div>
       </div>
@@ -154,8 +154,8 @@ get_header();
           <div class="col-lg-3 col-md-6 content-items" data-aos="fade-up" data-aos-delay="900">
             <div class="row">
               <div class="col-md-8 col-xs-12">
-                <span><i class='bx bx-palette'></i></span>
-                <h4>Memilih Template</h4>                
+                <span><i class='bx bx-pencil'></i></span>
+                <h4>Mengisi Form Hubungi Kami</h4>                
               </div>
               <div class="col-md-4 col-xs-12">
                 <span><i class='bx bxs-chevron-right'></i></span>  
@@ -196,35 +196,161 @@ get_header();
       </div>
     </section><!-- End About Lists Section -->
 
-    <section class="about-listss" id="about-listss">
+    <section class="faq" id="faq">
       <div class="container">
         <div class="section-title">
           <h2>Frequently Ask Question</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-xs-12 faq-item">
+            <h4>Pertanyaan</h4>
+            <p>Jawaban</p>
+          </div>
+          <div class="col-md-6 col-xs-12 faq-item">
+            <h4>Pertanyaan</h4>
+            <p>Jawaban</p>
+          </div>
+          <div class="col-md-6 col-xs-12 faq-item">
+            <h4>Pertanyaan</h4>
+            <p>Jawaban</p>
+          </div>
+          <div class="col-md-6 col-xs-12 faq-item">
+            <h4>Pertanyaan</h4>
+            <p>Jawaban</p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
+    <div class="modal fade" id="landingPage" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
           <div class="modal-body">
-            ...
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xs-12 my-auto">
+                <img src="<?php echo get_theme_file_uri( 'assets/img/landing-page.jpg' ); ?>" style="width: 100%; height: auto;">
+              </div>
+              <div class="col-lg-6 col-md-6 col-xs-12">
+                <h2 class="text-center">Landing Page</h2>
+                <p>Pengertian Landing Page Disini</p>
+                <div style="height: 1px; background: #C4C4C4;"></div>
+                <h5 class="mt-3">Layanan yang didapatkan</h5>
+                <ol>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                </ol>
+              </div>              
+            </div>
           </div>
-          <div class="modal-footer">
+          <div class="modal-footer mx-auto">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div>
       </div>
     </div>
 
+    <div class="modal fade" id="profileBisnis" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xs-12 my-auto">
+                <img src="<?php echo get_theme_file_uri( 'assets/img/landing-page.jpg' ); ?>" style="width: 100%; height: auto;">
+              </div>
+              <div class="col-lg-6 col-md-6 col-xs-12">
+                <h2 class="text-center">Landing Page</h2>
+                <p>Pengertian Landing Page Disini</p>
+                <div style="height: 1px; background: #C4C4C4;"></div>
+                <h5 class="mt-3">Layanan yang didapatkan</h5>
+                <ol>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                </ol>
+              </div>              
+            </div>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="PaketWebsite" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xs-12 my-auto">
+                <img src="<?php echo get_theme_file_uri( 'assets/img/landing-page.jpg' ); ?>" style="width: 100%; height: auto;">
+              </div>
+              <div class="col-lg-6 col-md-6 col-xs-12">
+                <h2 class="text-center">Landing Page</h2>
+                <p>Pengertian Landing Page Disini</p>
+                <div style="height: 1px; background: #C4C4C4;"></div>
+                <h5 class="mt-3">Layanan yang didapatkan</h5>
+                <ol>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                </ol>
+              </div>              
+            </div>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="tokoOnline" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xs-12 my-auto">
+                <img src="<?php echo get_theme_file_uri( 'assets/img/landing-page.jpg' ); ?>" style="width: 100%; height: auto;">
+              </div>
+              <div class="col-lg-6 col-md-6 col-xs-12">
+                <h2 class="text-center">Landing Page</h2>
+                <p>Pengertian Landing Page Disini</p>
+                <div style="height: 1px; background: #C4C4C4;"></div>
+                <h5 class="mt-3">Layanan yang didapatkan</h5>
+                <ol>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                  <li>sdasds</li>
+                </ol>
+              </div>              
+            </div>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 </main>
   <!-- End #main -->
 <?php
