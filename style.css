@@ -1842,32 +1842,30 @@ fieldset:disabled a.btn {
     .show > .btn-danger.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5); }
 
-.btn-light, .card:hover a {
+.btn-light {
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa; }
-  .btn-light:hover, .card:hover a:hover {
+  .btn-light:hover {
     color: #212529;
     background-color: #e2e6ea;
     border-color: #dae0e5; }
-  .btn-light:focus, .card:hover a:focus, .btn-light.focus, .card:hover a.focus {
+  .btn-light:focus, .btn-light.focus {
     color: #212529;
     background-color: #e2e6ea;
     border-color: #dae0e5;
     box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5); }
-  .btn-light.disabled, .card:hover a.disabled, .btn-light:disabled, .card:hover a:disabled {
+  .btn-light.disabled, .btn-light:disabled {
     color: #212529;
     background-color: #f8f9fa;
     border-color: #f8f9fa; }
-  .btn-light:not(:disabled):not(.disabled):active, .card:hover a:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, .card:hover a:not(:disabled):not(.disabled).active,
-  .show > .btn-light.dropdown-toggle,
-  .card:hover .show > a.dropdown-toggle {
+  .btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active,
+  .show > .btn-light.dropdown-toggle {
     color: #212529;
     background-color: #dae0e5;
     border-color: #d3d9df; }
-    .btn-light:not(:disabled):not(.disabled):active:focus, .card:hover a:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus, .card:hover a:not(:disabled):not(.disabled).active:focus,
-    .show > .btn-light.dropdown-toggle:focus,
-    .card:hover .show > a.dropdown-toggle:focus {
+    .btn-light:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus,
+    .show > .btn-light.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5); }
 
 .btn-dark {
@@ -3738,7 +3736,7 @@ button.bg-dark:focus {
 .m-3 {
   margin: 1rem !important; }
 
-.mt-3,
+.mt-3, .section--services h3,
 .my-3 {
   margin-top: 1rem !important; }
 
@@ -5132,7 +5130,7 @@ button.bg-dark:focus {
 .font-italic {
   font-style: italic !important; }
 
-.text-white {
+.text-white, .section--services p {
   color: #fff !important; }
 
 .text-primary {
@@ -5484,9 +5482,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   box-shadow: none !important;
   border: none !important;
   padding: 1rem;
-  border-radius: 2rem !important; }
+  border-radius: 2rem !important;
+  background-color: #24B1B8 !important; }
   .card h3 {
-    color: #000;
+    color: #fff;
     font-weight: 500; }
   .card span {
     font-size: 7rem;
@@ -5498,14 +5497,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   .card li {
     border-bottom: 1px solid #24B1B8;
     margin-bottom: 1rem; }
-
-.card:hover {
-  background-color: #24B1B8;
-  color: white !important; }
-  .card:hover h3 {
-    color: #fff !important; }
-  .card:hover li {
-    border-bottom: 1px solid #fff !important; }
 
 .modal-dialog {
   position: relative !important;
@@ -5676,6 +5667,10 @@ section {
   padding-bottom: 0;
   color: #000; }
 
+.section--services .card {
+  margin: 1rem;
+  align-items: center; }
+
 .section--services h2 {
   font-size: 32px;
   font-weight: 600;
@@ -5683,9 +5678,11 @@ section {
   padding-bottom: 0;
   color: #000; }
 
-.section--services .card {
-  margin: 1rem;
-  align-items: center; }
+.section--services img {
+  width: 80%; }
+
+.section--services h3 {
+  font-weight: 600; }
 
 /*--------------------------------------------------------------
 # About Us
@@ -6648,4 +6645,7 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 
 .modal-footer {
   border-top: none !important; }
+
+.col-lg-3 span {
+  font-size: 5rem !important; }
 

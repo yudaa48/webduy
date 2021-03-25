@@ -13,7 +13,7 @@ get_header();
               <div class="carousel-content container">
                 <div class="col-md-8">
                   <h1 class="animate__animated animate__fadeInDown">Webduy Development</h1>
-                  <p class="animate__animated animate__fadeInUp">Kami hadir untuk memberikan layanan pembuatan website terkini, harga terjangkau dan mudah diakses. Tersedia untuk UKM / UMKM, sekolah, instansi pemerintah, hingga perusahaan.</p>                  
+                  <p class="animate__animated animate__fadeInUp">Hadir untuk membantu Anda memberikan layanan pembuatan <b>website terkini, harga terjangkau dan siap dipakai</b>. Tersedia untuk UKM / UMKM, sekolah, instansi pemerintah, hingga perusahaan.</p>                  
                 </div>
               </div>
             </div>
@@ -58,64 +58,23 @@ get_header();
     <section class="section--services">
       <div class="container">
           <div class="section-title">
-              <h2>Layanan Jasa Website <span class="brand">Webduy.id</span></h2>
+              <h2>Produk Website <span class="brand">Webduy.id</span></h2>
           </div>
           <div class="row d-flex justify-content-center">
-            <div class="col-lg-4 card" data-aos="fade-up" data-aos-delay="300">
-              <p>Paket Website</p>
-              <h3 class="mb-3">Landing Page</h3>
-              <i>Mulai Dari</i>
-              <span>400K</span>
-              <i>Termasuk</i>
-              <ol>
-                <li class="mt-3">Gratis Domain .com</li>
-                <li>Gratis Hosting</li>
-                <li>Desain dan Fitur</li>
-              </ol>
-              <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
+            <div class="col-lg-3 card" data-aos="fade-up" data-aos-delay="300">
+              <img src="<?php echo get_theme_file_uri( 'assets/img/landing-page.png' ); ?>">
+              <h3>Landing Page</h3>
+              <p>Deskripsi Disini</p>
             </div>
-            <div class="col-lg-4 card" data-aos="fade-up" data-aos-delay="400">
-              <p>Paket Website</p>
-              <h3 class="mb-3">Profile Bisnis</h3>
-              <i>Mulai Dari</i>
-              <span>600K</span>
-              <i>Termasuk</i>
-              <ol>
-                <li class="mt-3">Gratis Domain .com</li>
-                <li>Gratis Hosting</li>
-                <li>Desain dan Fitur</li>
-              </ol>
-              <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
+            <div class="col-lg-3 card" data-aos="fade-up" data-aos-delay="400">
+              <img src="<?php echo get_theme_file_uri( 'assets/img/profil-bisnis.png' ); ?>">
+              <h3>Profil Bisnis</h3>
+              <p>Deskripsi Disini</p>
             </div>
-            <div class="col-lg-4 card" data-aos="fade-up" data-aos-delay="500">
-              <p>Paket Website</p>
-              <h3>Profile Bisnis &</h3>
-              <h3 class="mb-3">Landing Page</h3>
-              <i>Mulai Dari</i>
-              <span>900K</span>
-              <i>Termasuk</i>
-              <ol>
-                <li class="mt-3">Gratis Domain .com</li>
-                <li>Landing Page Menggunakan <br>Subdomain</li>
-                <li>Gratis Hosting</li>
-                <li>Desain dan Fitur</li>
-              </ol>
-              <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
-            </div>
-            <div class="col-lg-4 card" data-aos="fade-up" data-aos-delay="600">
-              <p>Paket Website</p>
-              <h3>Toko Online</h3>
-              <h3 class="mb-3">(E-Commerce)</h3>
-              <i>Mulai Dari</i>
-              <span>SOON</span>
-              <i>Termasuk</i>
-              <ol>
-                <li class="mt-3">Gratis Domain .com</li>
-                <li>Gratis Hosting</li>
-                <li>Desain dan Fitur</li>
-                <li>Pilihan Layanan Pengiriman</li>
-              </ol>
-              <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/" class="btn btn-primary"><i class='bx bx-pointer'></i> Detail Layanan</a>
+            <div class="col-lg-3 card" data-aos="fade-up" data-aos-delay="500">
+              <img src="<?php echo get_theme_file_uri( 'assets/img/bundling-package.png' ); ?>">
+              <h3>Bundling Package</h3>
+              <p>Deskripsi Disini</p>
             </div>
           </div>
       </div>
