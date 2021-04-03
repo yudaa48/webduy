@@ -1,44 +1,72 @@
 <?php
-?>
+?> 
 
 <!DOCTYPE html>
-<html lang="id" class="h-100">
+<html lang="id">
+
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
 
 	<?php wp_head(); ?>
 </head>
 
-<body class="d-flex flex-column h-100">
+<body>
 	<?php wp_body_open(); ?>
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container">
-
-      <div class="logo float-left">
-        <h1 class="text-light"><a href="<?php echo get_bloginfo( 'wpurl' ) ?>"><span>Webduy.id</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-         <!-- <a href="<?php echo get_bloginfo( 'wpurl' ) ?>"><img src="wp-content/themes/web-landing/assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      </div>
-
-      <nav class="nav-menu float-right d-none d-lg-block">
-        <ul>
-          <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>">Home</a></li>
-          <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/">Layanan</a></li>
-          <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/about-us/">Tentang Kami</a></li>
-          <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/blog/">Blog</a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas__menu__overlay"></div>
+    <div class="offcanvas__menu__wrapper">
+        <div class="canvas__close">
+            <span class="fa fa-times-circle-o"></span>
+        </div>
+        <div class="offcanvas__logo">
+            <a href="<?php echo get_bloginfo( 'wpurl' ) ?>">WEBDUY.ID</a>
+        </div>
+        <nav class="offcanvas__menu mobile-menu">
+            <ul>
+                <li class="active"><a href="<?php echo get_bloginfo( 'wpurl' ) ?>">Home</a></li>
+                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/about-us">Tentang Kami</a></li>
+                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services">Layanan</a></li>
+                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/blog">Blog</a></li>
+                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/contact">Kontak</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
     </div>
-  </header>
+    <!-- Offcanvas Menu End -->
 
-  <!-- End Header -->
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="header__logo">
+                        <a href="<?php echo get_bloginfo( 'wpurl' ) ?>">WEBDUY.ID</a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <nav class="header__menu">
+                        <ul>
+                            <li class="active"><a href="<?php echo get_bloginfo( 'wpurl' ) ?>">Home</a></li>
+                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/about-us">Tentang Kami</a></li>
+                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services">Layanan</a></li>
+                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/blog">Blog</a></li>
+                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/contact">Kontak</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="canvas__open">
+                <span class="fa fa-bars"></span>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->

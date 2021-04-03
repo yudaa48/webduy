@@ -1,210 +1,297 @@
 <?php
 get_header();
 ?>
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner" role="listbox">
-
-          <!-- Slide 1 -->
-          <div class="carousel-item active section-home">
-            <div class="carousel-container">
-              <div class="carousel-content container">
-                <div class="col-md-8">
-                  <h1 class="animate__animated animate__fadeInDown">Webduy Development</h1>
-                  <p class="animate__animated animate__fadeInUp">Hadir untuk membantu Anda memberikan layanan pembuatan <b>website terkini, harga terjangkau dan siap dipakai</b>. Tersedia untuk UKM / UMKM, sekolah, instansi pemerintah, hingga perusahaan.</p>                  
+    <!-- Hero Section Begin -->
+    <section class="hero-section">
+        <div class="hero__slider owl-carousel">
+            <div class="hero__item set-bg" data-setbg="<?php echo get_theme_file_uri( 'assets/img/hero/kujang.png' ); ?>">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="hero__text">
+                                <h2>Selamat Datang di<br /> Webduy Development</h2>
+                                <p>Kami hadir untuk memberikan layanan pembuatan website kekinian, harga terjangkau dan mudah diakses. Tersedia untuk UKM / UMKM, sekolah, instansi pemerintah, hingga perusahaan.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Hero -->
-  
-<main id="main">
-
-    <!-- ======= About Lists Section ======= -->
-    <section class="about-lists" id="about-lists">
-      <div class="container">
-          <div class="section-title">
-              <h2>Mengapa harus Memilih <span class="brand">Webduy.id</span></h2>
-            </div>
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up">
-            <span class="icon"><i class='bx bx-wallet'></i></span>
-            <h3>Harga Terjangkau</h3>
-            <p>Kami menjamin harga yang terjangkau untuk Anda dalam memulai membangun website bisnis atau usaha Anda.</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
-            <span class="icon"><i class='bx bx-palette'></i></span>
-            <h3>Tampilan Menarik</h3>
-            <p>Tampilan website terkini yang profesional, dapat diakses melalui beragam jenis perangkat (Responsive) dan user friendly.</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
-            <span class="icon"><i class='bx bx-support'></i></span>
-            <h3>Layanan Support</h3>
-            <p>Membantu Anda dalam mengelola website dengan aman dan tidak mengalami kendala.</p>
-          </div>
-        </div>
-      </div>
-    </section><!-- End About Lists Section -->
-
-    <section class="section--services">
-      <div class="container">
-          <div class="section-title">
-              <h2>Produk Website <span class="brand">Webduy.id</span></h2>
-          </div>
-          <div class="row d-flex justify-content-center">
-            <div class="col-lg-3 card" data-aos="fade-up" data-aos-delay="300">
-              <img src="<?php echo get_theme_file_uri( 'assets/img/landing-page.png' ); ?>">
-              <h3>Landing Page</h3>
-              <p>Deskripsi Disini</p>
-            </div>
-            <div class="col-lg-3 card" data-aos="fade-up" data-aos-delay="400">
-              <img src="<?php echo get_theme_file_uri( 'assets/img/profil-bisnis.png' ); ?>">
-              <h3>Profil Bisnis</h3>
-              <p>Deskripsi Disini</p>
-            </div>
-            <div class="col-lg-3 card" data-aos="fade-up" data-aos-delay="500">
-              <img src="<?php echo get_theme_file_uri( 'assets/img/bundling-package.png' ); ?>">
-              <h3>Bundling Package</h3>
-              <p>Deskripsi Disini</p>
-            </div>
-          </div>
-      </div>
     </section>
+    <!-- Hero Section End -->
 
-    <!-- ======= Our Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up" data-aos-delay="700">
-
-        <div class="section-title">
-          <h2>Portofolio <span class="brand">Webduy.id</span></h2>
-          <p>Berikut merupakan portofolio yang sudah kami kerjakan sebelumnya.<br>Apakah Anda berikutnya? Mari bergabung dengan kami.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-landing">Landing Page</li>
-              <li data-filter=".filter-profil">Profil Bisnis</li>
-              <li data-filter=".filter-toko">Toko Online</li>
-              <li data-filter=".filter-produk">Custom Product</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-landing">
-            <div class="portfolio-wrap">
-              <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/tripo-1.png' ); ?>" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Tripo 3000</h4>
-                <p>Profile Bisnis</p>
-                <div class="portfolio-links">
-                  <a href="<?php echo get_theme_file_uri( 'assets/img/portfolio/tripo-1.png' ); ?>" data-gall="portfolioGallery" class="venobox" title="Tripo 3000"><i class="icofont-eye"></i></a>
-                  <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/portfolio-details-tripo3000/" target="_blank" title="More Details"><i class="icofont-external-link"></i></a>
+    <!-- Services Section Begin -->
+    <section class="services-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h3>Layanan webduy development</h3>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-produk">
-            <div class="portfolio-wrap">
-              <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/peta-pesta-1.png' ); ?>" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Peta Pesta</h4>
-                <p>Custom Product</p>
-                <div class="portfolio-links">
-                  <a href="<?php echo get_theme_file_uri( 'assets/img/portfolio/peta-pesta.png' ); ?>" data-gall="portfolioGallery" class="venobox" title="Peta Pesta"><i class="icofont-eye"></i></a>
-                  <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/portfolio-details-petapesta/" target="_blank" title="More Details"><i class="icofont-external-link"></i></a>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="services__item">
+                        <h5>Landing Page</h5>
+                        <span>Mulai dari 400K</span>
+                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-profil">
-            <div class="portfolio-wrap">
-              <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/terralogiq-1.png' ); ?>" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>PT. Terralogiq Integrasi Solusi</h4>
-                <p>Profile Bisnis</p>
-                <div class="portfolio-links">
-                  <a href="<?php echo get_theme_file_uri( 'assets/img/portfolio/terralogiq-1.png' ); ?>" data-gall="portfolioGallery" class="venobox" title="PT. Terralogiq Integrasi Solusi"><i class="icofont-eye"></i></a>
-                  <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/portfolio-details-terralogiq/" target="_blank" title="More Details"><i class="icofont-external-link"></i></a>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="services__item">
+                        <h5>Company Profile</h5>
+                        <span>Mulai dari 600K</span>
+                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-profil">
-            <div class="portfolio-wrap">
-              <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/himsi-bogor-1.png' ); ?>" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Himpunan Mahasiswa Sistem Informasi Kota Bogor</h4>
-                <p>Profile Organisasi</p>
-                <div class="portfolio-links">
-                  <a href="<?php echo get_theme_file_uri( 'assets/img/portfolio/himsi-bogor.png' ); ?>" data-gall="portfolioGallery" class="venobox" title="Himpunan Mahasiswa Sistem Informasi Kota Bogor"><i class="icofont-eye"></i></a>
-                  <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/portfolio-details-himsi/" target="_blank" title="More Details"><i class="icofont-external-link"></i></a>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="services__item">
+                        <h5>Bundling Package</h5>
+                        <span>Mulai dari 900K</span>
+                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-toko">
-            <div class="portfolio-wrap">
-              <img src="<?php echo get_theme_file_uri( 'assets/img/portfolio/portfolio-9.jpg' ); ?>" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Your Business Will Be Here</h4>
-                <p>Contact Us Now!</p>
-                <div class="portfolio-links">
-                  <a href="<?php echo get_theme_file_uri( 'assets/img/portfolio/portfolio-9.jpg' ); ?>" data-gall="portfolioGallery" class="venobox" title="Your Business Here"><i class="icofont-eye"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
-
-      </div>
-    </section><!-- End Our Portfolio Section -->
-
-    <section class="faq" id="faq">
-      <div class="container">
-        <div class="section-title">
-          <h2>Frequently Ask Question</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-xs-12 faq-item" data-aos="fade-up" data-aos-delay="800">
-            <h4>Pertanyaan</h4>
-            <p>Jawaban</p>
-          </div>
-          <div class="col-md-6 col-xs-12 faq-item" data-aos="fade-up" data-aos-delay="900">
-            <h4>Pertanyaan</h4>
-            <p>Jawaban</p>
-          </div>
-          <div class="col-md-6 col-xs-12 faq-item" data-aos="fade-up" data-aos-delay="1000">
-            <h4>Pertanyaan</h4>
-            <p>Jawaban</p>
-          </div>
-          <div class="col-md-6 col-xs-12 faq-item" data-aos="fade-up" data-aos-delay="1100">
-            <h4>Pertanyaan</h4>
-            <p>Jawaban</p>
-          </div>
-        </div>
-      </div>
     </section>
+    <!-- Services Section End -->
 
-</main>
-  <!-- End #main -->
+    <!-- Pricing Section Begin -->
+    <section class="pricing-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-7">
+                    <div class="section-title normal-title">
+                        <h3>Pilih Kebutuhan Anda</h3>
+                    </div> 
+                </div>
+            </div>
+            <div class="row monthly__plans active">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pricing__item">
+                        <h4>Landing Page</h4>
+                        <h1>IDR 400K</h1>
+                        <ul>
+                            <li>2,5 GB web space</li>
+                            <li>Free site buiding tools</li>
+                            <li>Free domain registar</li>
+                            <li>24/7 Support</li>
+                            <li>Free marketing tool</li>
+                            <li>99,9% Services uptime</li>
+                            <li>30 day money back</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pricing__item">
+                        <h4>Company Profile</h4>
+                        <h1>IDR 600K</h1>
+                        <ul>
+                            <li>90 GB web space</li>
+                            <li>Free site buiding tools</li>
+                            <li>Free domain registar</li>
+                            <li>24/7 Support</li>
+                            <li>Free marketing tool</li>
+                            <li>99,9% Services uptime</li>
+                            <li>30 day money back</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pricing__item">
+                        <h4>Bundling Package</h4>
+                        <h1>IDR 900K</h1>
+                        <ul>
+                            <li>150 GB web space</li>
+                            <li>Free site buiding tools</li>
+                            <li>Free domain registar</li>
+                            <li>24/7 Support</li>
+                            <li>Free marketing tool</li>
+                            <li>99,9% Services uptime</li>
+                            <li>30 day money back</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing Section End -->
+
+    <!-- Achievement Section Begin -->
+    <section class="achievement-section set-bg spad" data-setbg="<?php echo get_theme_file_uri( 'assets/img/achievement-bg.png' ); ?>">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-white">
+                        <h3>Software Development Life Cycle</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="achievement__item">
+                        <span class="bx bx-analyse"></span>
+                        <h2>Analisa</h2>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="achievement__item">
+                        <span class="bx bx-palette"></span>
+                        <h2>Desain</h2>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="achievement__item">
+                        <span class="bx bx-code-alt"></span>
+                        <h2>Pengembangan</h2>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="achievement__item">
+                        <span class="bx bx-support"></span>
+                        <h2>Maintence</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Achievement Section End -->
+
+    <!-- Work Section Begin -->
+    <section class="work-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h3>Manfaat memiliki website bisnis saat ini</h3>
+                    </div>
+                    <div class="work__text">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="work__item">
+                                    <i class="fa fa-desktop"></i>
+                                    <span></span>
+                                    <h3>Marketing Campaign</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                        gravida facilisis. </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="work__item">
+                                    <i class="fa fa-shopping-bag"></i>
+                                    <span></span>
+                                    <h3>Branding Campaign</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                        gravida facilisis. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Work Section End -->
+
+    <!-- Testimonial Section Begin -->
+    <section class="testimonial-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h3>Portfolio Kami</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="testimonial__slider owl-carousel">
+                    <div class="col-lg-4">
+                        <div class="testimonial__item">
+                            <img src="<?php echo get_theme_file_uri( 'assets/img/testimonial/testimonial-1.jpg' ); ?>" alt="">
+                            <h5>Tripo 3000</h5>
+                            <span>tripo3000.com</span>
+                            <p>Ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labuore
+                                et dolore magna aliqua.</p>
+                            <div class="testimonial__rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="testimonial__item">
+                            <img src="<?php echo get_theme_file_uri( 'assets/img/testimonial/testimonial-2.jpg' ); ?>" alt="">
+                            <h5>Peta Pesta</h5>
+                            <span>petapesta.com</span>
+                            <p>Ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labuore
+                                et dolore magna aliqua.</p>
+                            <div class="testimonial__rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="testimonial__item">
+                            <img src="<?php echo get_theme_file_uri( 'assets/img/testimonial/testimonial-3.jpg' ); ?>" alt="">
+                            <h5>HIMSI Kota Bogor</h5>
+                            <span>himsibogor.com</span>
+                            <p>Ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labuore
+                                et dolore magna aliqua.</p>
+                            <div class="testimonial__rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="testimonial__item">
+                            <img src="<?php echo get_theme_file_uri( 'assets/img/testimonial/testimonial-1.jpg' ); ?>" alt="">
+                            <h5>PT. Terralogiq Integrasi Solusi</h5>
+                            <span>terralogiq.com</span>
+                            <p>Ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labuore
+                                et dolore magna aliqua.</p>
+                            <div class="testimonial__rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="testimonial__item">
+                            <img src="<?php echo get_theme_file_uri( 'assets/img/testimonial/testimonial-2.jpg' ); ?>" alt="">
+                            <h5>PT. Appsensi Tiga Ribu</h5>
+                            <span>appsensi.com</span>
+                            <p>Ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labuore
+                                et dolore magna aliqua.</p>
+                            <div class="testimonial__rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section End -->
 <?php
 get_footer();

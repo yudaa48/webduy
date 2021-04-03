@@ -1,402 +1,231 @@
 <?php
 get_header();
 ?>
-    <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner" role="listbox">
 
-          <!-- Slide 1 -->
-          <div class="carousel-item active section-services">
-            <div class="carousel-container">
-              <div class="carousel-content container">
-                <div class="col-md-8">
-                  <h1 class="animate__animated animate__fadeInDown">Layanan Kami</h1>
-                  <p class="animate__animated animate__fadeInUp">Layanan kami menawarkan pengembangan website bisnis yang kekinian. Pengembangan dilakukan secara teliti dengan memerhatikan responsibilitas terhadap perangkat apapun. Hasil dari pengembangan website dapat mempermudah pelanggan Anda menemukan perusahaan Anda di internet.</p>                  
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas__menu__overlay"></div>
+    <div class="offcanvas__menu__wrapper">
+        <div class="canvas__close">
+            <span class="fa fa-times-circle-o"></span>
+        </div>
+        <div class="offcanvas__logo">
+            <a href="<?php echo get_bloginfo( 'wpurl' ) ?>"><img src="<?php echo get_theme_file_uri( 'assets/img/logo.png' ); ?>" alt=""></a>
+        </div>
+        <nav class="offcanvas__menu mobile-menu">
+            <ul>
+                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>">Home</a></li>
+                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/about-us">Tentang Kami</a></li>
+                <li class="active"><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services">Layanan</a></li>
+                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/blog">Blog</a></li>
+                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <header class="header-section header-normal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="header__logo">
+                        <a href="<?php echo get_bloginfo( 'wpurl' ) ?>"><img src="<?php echo get_theme_file_uri( 'assets/img/logo.png' ); ?>" alt=""></a>
+                    </div>
                 </div>
-              </div>
+                <div class="col-lg-9 col-md-9">
+                    <nav class="header__menu">
+                        <ul>
+                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>">Home</a></li>
+                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/about-us">Tentang Kami</a></li>
+                            <li class="active"><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services">Layanan</a></li>
+                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/blog">Blog</a></li>
+                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/contact">Kontak</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-          </div>
+            <div class="canvas__open">
+                <span class="fa fa-bars"></span>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Hero -->
-  
-<main id="main">
+    </header>
+    <!-- Header End -->
 
-    <!-- ======= About Lists Section ======= -->
-    <section class="about-listss" id="about-listss">
-      <div class="container">
-        <div class="section-title">
-          <h2>Alur Pengembangan Website <span class="brand">Webduy.id</span></h2>
+    <!-- Pricing Section Begin -->
+    <section class="pricing-section spad services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-7">
+                    <div class="section-title normal-title">
+                        <h3>Choose your plan</h3>
+                    </div> 
+                </div>
+            </div>
+            <div class="row monthly__plans active">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pricing__item">
+                        <h4>Landing Page</h4>
+                        <h3>$15.90 <span>/ month</span></h3>
+                        <ul>
+                            <li>2,5 GB web space</li>
+                            <li>Free site buiding tools</li>
+                            <li>Free domain registar</li>
+                            <li>24/7 Support</li>
+                            <li>Free marketing tool</li>
+                            <li>99,9% Services uptime</li>
+                            <li>30 day money back</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pricing__item">
+                        <h4>Company Profile</h4>
+                        <h3>$25.90 <span>/ month</span></h3>
+                        <ul>
+                            <li>90 GB web space</li>
+                            <li>Free site buiding tools</li>
+                            <li>Free domain registar</li>
+                            <li>24/7 Support</li>
+                            <li>Free marketing tool</li>
+                            <li>99,9% Services uptime</li>
+                            <li>30 day money back</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pricing__item">
+                        <h4>Bundling Package</h4>
+                        <h3>$35.90 <span>/ month</span></h3>
+                        <ul>
+                            <li>150 GB web space</li>
+                            <li>Free site buiding tools</li>
+                            <li>Free domain registar</li>
+                            <li>24/7 Support</li>
+                            <li>Free marketing tool</li>
+                            <li>99,9% Services uptime</li>
+                            <li>30 day money back</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row d-flex align-items-center text-center">
-          <div class="col-lg-3 col-md-6 content-items" data-aos="fade-up" data-aos-delay="100">
-            <div class="row">
-              <div class="col-md-8 col-xs-12">
-                <span><i class='bx bx-analyse'></i></span>
-                <h4>Analisa</h4>                
-              </div>
-              <div class="col-md-4 col-xs-12">
-                <span><i class='bx bxs-chevron-right'></i></span>  
-              </div> 
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 content-items" data-aos="fade-up" data-aos-delay="200">
-            <div class="row">
-              <div class="col-md-8 col-xs-12">
-                <span><i class='bx bx-palette'></i></span>
-                <h4>Desain</h4>                
-              </div>
-              <div class="col-md-4 col-xs-12">
-                <span><i class='bx bxs-chevron-right'></i></span>  
-              </div> 
-            </div>
-          </div>          
-          <div class="col-lg-4 col-md-6 content-items" data-aos="fade-up" data-aos-delay="300">
-            <div class="row">
-              <div class="col-md-8 col-xs-12">
-                <span><i class='bx bx-code-alt'></i></span>
-                <h4>Pengembangan</h4>               
-              </div>
-              <div class="col-md-4 col-xs-12">
-                <span><i class='bx bxs-chevron-right'></i></span>  
-              </div> 
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-6 content-items" data-aos="fade-up" data-aos-delay="400">
-            <div class="row">
-              <div class="col-md-12 col-xs-12">
-                <span><i class='bx bx-support'></i></span>
-                <h4>Maintence</h4>               
-              </div> 
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End About Lists Section -->
-
-    <section class="section--services">
-      <div class="container">
-          <div class="section-title">
-              <h2>Layanan Jasa Website <span class="brand">Webduy.id</span></h2>
-          </div>
-          <div class="row d-flex justify-content-center">
-            <div class="col-lg-4 card" data-aos="fade-up" data-aos-delay="500">
-              <p>Paket Website</p>
-              <h3 class="mb-3">Landing Page</h3>
-              <i>Mulai Dari</i>
-              <span>400K</span>
-              <i>Termasuk</i>
-              <ol>
-                <li class="mt-3">Gratis Domain .com</li>
-                <li>Gratis Hosting</li>
-                <li>Desain dan Fitur</li>
-              </ol>
-              <a href="#" class="btn btn-primary" type="button" data-toggle="modal" data-target="#landingPage"><i class='bx bx-pointer'></i> Detail Layanan</a>
-            </div>
-            <div class="col-lg-4 card" data-aos="fade-up" data-aos-delay="600">
-              <p>Paket Website</p>
-              <h3 class="mb-3">Profile Bisnis</h3>
-              <i>Mulai Dari</i>
-              <span>600K</span>
-              <i>Termasuk</i>
-              <ol>
-                <li class="mt-3">Gratis Domain .com</li>
-                <li>Gratis Hosting</li>
-                <li>Desain dan Fitur</li>
-              </ol>
-              <a href="#" class="btn btn-primary" type="button" data-toggle="modal" data-target="#profileBisnis"><i class='bx bx-pointer'></i> Detail Layanan</a>
-            </div>
-            <div class="col-lg-3 card" data-aos="fade-up" data-aos-delay="700">
-              <p>Paket Website</p>
-              <h3>Profile Bisnis &</h3>
-              <h3 class="mb-3">Landing Page</h3>
-              <i>Mulai Dari</i>
-              <span>900K</span>
-              <i>Termasuk</i>
-              <ol>
-                <li class="mt-3">Gratis Domain .com</li>
-                <li>Landing Page Menggunakan <br>Subdomain</li>
-                <li>Gratis Hosting</li>
-                <li>Desain dan Fitur</li>
-              </ol>
-              <a href="#" class="btn btn-primary" type="button" data-toggle="modal" data-target="#PaketWebsite"><i class='bx bx-pointer'></i> Detail Layanan</a>
-            </div>
-            <div class="col-lg-3 card" data-aos="fade-up" data-aos-delay="800">
-              <p>Paket Website</p>
-              <h3>Toko Online</h3>
-              <h3 class="mb-3">(E-Commerce)</h3>
-              <i>Mulai Dari</i>
-              <span>SOON</span>
-              <i>Termasuk</i>
-              <ol>
-                <li class="mt-3">Gratis Domain .com</li>
-                <li>Gratis Hosting</li>
-                <li>Desain dan Fitur</li>
-                <li>Pilihan Layanan Pengiriman</li>
-              </ol>
-              <a href="#" class="btn btn-primary" type="button" data-toggle="modal" data-target="#tokoOnline"><i class='bx bx-pointer'></i> Detail Layanan</a>
-            </div>
-            <div class="col-lg-3 card" data-aos="fade-up" data-aos-delay="800">
-              <p>Paket Website</p>
-              <h3>UI/UX</h3>
-              <h3 class="mb-3">Design</h3>
-              <i>Mulai Dari</i>
-              <span>SOON</span>
-              <i>Termasuk</i>
-              <ol>
-                <li class="mt-3">Gratis Domain .com</li>
-                <li>Gratis Hosting</li>
-                <li>Desain dan Fitur</li>
-                <li>Pilihan Layanan Pengiriman</li>
-              </ol>
-              <a href="#" class="btn btn-primary" type="button" data-toggle="modal" data-target="#uiuxdesign"><i class='bx bx-pointer'></i> Detail Layanan</a>
-            </div>
-          </div>
-      </div>
     </section>
+    <!-- Pricing Section End -->
 
-    <!-- ======= About Lists Section ======= -->
-    <section class="about-listss" id="about-listss">
-      <div class="container">
-        <div class="section-title">
-          <h2>Alur Pemesanan Website <span class="brand">Webduy.id</span></h2>
-        </div>
-        <div class="row d-flex align-items-center text-center">
-          <div class="col-lg-3 col-md-6 content-items" data-aos="fade-up" data-aos-delay="900">
+    <!-- Choose Plan Section Begin -->
+    <section class="choose-plan-section pricing-page spad">
+        <div class="container">
             <div class="row">
-              <div class="col-md-8 col-xs-12">
-                <span><i class='bx bx-pencil'></i></span>
-                <h4>Mengisi Form Hubungi Kami</h4>                
-              </div>
-              <div class="col-md-4 col-xs-12">
-                <span><i class='bx bxs-chevron-right'></i></span>  
-              </div> 
+                <div class="col-lg-6">
+                    <img src="<?php echo get_theme_file_uri( 'assets/img/online.png' ); ?>" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="plan__text">
+                        <h3>up to 70% discount with free domain name registration included!</h3>
+                        <ul>
+                            <li><span class="fa fa-check"></span> FREE Domain Name</li>
+                            <li><span class="fa fa-check"></span> FREE Email Address</li>
+                            <li><span class="fa fa-check"></span> Plently of disk space</li>
+                            <li><span class="fa fa-check"></span> FREE Website Bullder</li>
+                            <li><span class="fa fa-check"></span> FREE Marketing Tools</li>
+                            <li><span class="fa fa-check"></span> 1-Click WordPress Install</li>
+                        </ul>
+                        <a href="#" class="primary-btn">Get start now</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6 content-items" data-aos="fade-up" data-aos-delay="1000">
-            <div class="row">
-              <div class="col-md-8 col-xs-12">
-                <span><i class='bx bx-conversation'></i></span>
-                <h4>Konfirmasi Pesanan</h4>                
-              </div>
-              <div class="col-md-4 col-xs-12">
-                <span><i class='bx bxs-chevron-right'></i></span>  
-              </div> 
-            </div>
-          </div>         
-          <div class="col-lg-4 col-md-6 content-items" data-aos="fade-up" data-aos-delay="1100">
-            <div class="row">
-              <div class="col-md-8 col-xs-12">
-                <span><i class='bx bx-credit-card'></i></span>
-                <h4>Membayar 25% Biaya</h4>               
-              </div>
-              <div class="col-md-4 col-xs-12">
-                <span><i class='bx bxs-chevron-right'></i></span>  
-              </div> 
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-6 content-items" data-aos="fade-up" data-aos-delay="1200">
-            <div class="row">
-              <div class="col-md-12 col-xs-12">
-                <span><i class='bx bx-code-alt'></i></span>
-                <h4>Proses Pengembangan</h4>               
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </section><!-- End About Lists Section -->
-
-    <section class="faq" id="faq">
-      <div class="container">
-        <div class="section-title">
-          <h2>Frequently Ask Question</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-xs-12 faq-item">
-            <h4>Pertanyaan</h4>
-            <p>Jawaban</p>
-          </div>
-          <div class="col-md-6 col-xs-12 faq-item">
-            <h4>Pertanyaan</h4>
-            <p>Jawaban</p>
-          </div>
-          <div class="col-md-6 col-xs-12 faq-item">
-            <h4>Pertanyaan</h4>
-            <p>Jawaban</p>
-          </div>
-          <div class="col-md-6 col-xs-12 faq-item">
-            <h4>Pertanyaan</h4>
-            <p>Jawaban</p>
-          </div>
-        </div>
-      </div>
     </section>
+    <!-- Choose Plan Section End -->
 
-    <!-- Modal -->
-    <div class="modal fade" id="landingPage" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
+    <!-- Question Section Begin -->
+    <section class="question-section spad">
+        <div class="container">
             <div class="row">
-              <div class="col-lg-12 col-md-12 col-xs-12">
-                <h2 class="text-center">Landing Page</h2>
-                <p>Pengertian Landing Page Disini</p>
-                <div style="height: 1px; background: #C4C4C4;"></div>
-                <h5 class="mt-3">Layanan yang didapatkan</h5>
-                <ol>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                </ol>
-              </div>              
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h3>Have a questions?</h3>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="modal-footer mx-auto">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal fade" id="profileBisnis" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-body">
             <div class="row">
-              <div class="col-lg-6 col-md-6 col-xs-12 my-auto">
-                <img src="<?php echo get_theme_file_uri( 'assets/img/landing-page.jpg' ); ?>" style="width: 100%; height: auto;">
-              </div>
-              <div class="col-lg-6 col-md-6 col-xs-12">
-                <h2 class="text-center">Landing Page</h2>
-                <p>Pengertian Landing Page Disini</p>
-                <div style="height: 1px; background: #C4C4C4;"></div>
-                <h5 class="mt-3">Layanan yang didapatkan</h5>
-                <ol>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                </ol>
-              </div>              
+                <div class="col-lg-6">
+                    <div class="question__accordin">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-heading active">
+                                    <a class="active" data-toggle="collapse" data-target="#collapseOne">
+                                        How do I cancel and delete my account?
+                                    </a>
+                                </div>
+                                <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                            facilisis. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-heading">
+                                    <a data-toggle="collapse" data-target="#collapseTwo">
+                                        Can I get my website listed in Google?
+                                    </a>
+                                </div>
+                                <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                            facilisis. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-heading">
+                                    <a data-toggle="collapse" data-target="#collapseThree">
+                                        Can I run a business?
+                                    </a>
+                                </div>
+                                <div id="collapseThree" class="collapse" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                            facilisis. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-heading">
+                                    <a data-toggle="collapse" data-target="#collapseFour">
+                                        Does ArkaHost offer phone support?
+                                    </a>
+                                </div>
+                                <div id="collapseFour" class="collapse" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                            facilisis. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form action="#" class="question-form">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                        <textarea placeholder="Question"></textarea>
+                        <button type="submit" class="site-btn">Send question</button>
+                    </form>
+                </div>
             </div>
-          </div>
-          <div class="modal-footer mx-auto">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
         </div>
-      </div>
-    </div>
-
-    <div class="modal fade" id="PaketWebsite" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-xs-12 my-auto">
-                <img src="<?php echo get_theme_file_uri( 'assets/img/landing-page.jpg' ); ?>" style="width: 100%; height: auto;">
-              </div>
-              <div class="col-lg-6 col-md-6 col-xs-12">
-                <h2 class="text-center">Landing Page</h2>
-                <p>Pengertian Landing Page Disini</p>
-                <div style="height: 1px; background: #C4C4C4;"></div>
-                <h5 class="mt-3">Layanan yang didapatkan</h5>
-                <ol>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                </ol>
-              </div>              
-            </div>
-          </div>
-          <div class="modal-footer mx-auto">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal fade" id="tokoOnline" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-xs-12 my-auto">
-                <img src="<?php echo get_theme_file_uri( 'assets/img/landing-page.jpg' ); ?>" style="width: 100%; height: auto;">
-              </div>
-              <div class="col-lg-6 col-md-6 col-xs-12">
-                <h2 class="text-center">Landing Page</h2>
-                <p>Pengertian Landing Page Disini</p>
-                <div style="height: 1px; background: #C4C4C4;"></div>
-                <h5 class="mt-3">Layanan yang didapatkan</h5>
-                <ol>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                </ol>
-              </div>              
-            </div>
-          </div>
-          <div class="modal-footer mx-auto">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal fade" id="uiuxdesign" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-xs-12 my-auto">
-                <img src="<?php echo get_theme_file_uri( 'assets/img/landing-page.jpg' ); ?>" style="width: 100%; height: auto;">
-              </div>
-              <div class="col-lg-6 col-md-6 col-xs-12">
-                <h2 class="text-center">Landing Page</h2>
-                <p>Pengertian Landing Page Disini</p>
-                <div style="height: 1px; background: #C4C4C4;"></div>
-                <h5 class="mt-3">Layanan yang didapatkan</h5>
-                <ol>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                  <li>sdasds</li>
-                </ol>
-              </div>              
-            </div>
-          </div>
-          <div class="modal-footer mx-auto">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-</main>
-  <!-- End #main -->
+    </section>
+    <!-- Question Section End -->
 <?php
 get_footer();

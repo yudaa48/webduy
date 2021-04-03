@@ -1,61 +1,91 @@
-<?php
+ <?php
 get_header();
 ?>
 
-    <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner" role="listbox">
-
-          <!-- Slide 1 -->
-          <div class="carousel-item active section-blog">
-            <div class="carousel-container">
-              <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Blog</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-              </div>
-            </div>
-          </div>
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas__menu__overlay"></div>
+    <div class="offcanvas__menu__wrapper">
+        <div class="canvas__close">
+            <span class="fa fa-times-circle-o"></span>
         </div>
-      </div>
+        <div class="offcanvas__logo">
+            <a href="<?php echo get_bloginfo( 'wpurl' ) ?>"><img src="<?php echo get_theme_file_uri( 'assets/img/logo.png' ); ?>" alt=""></a>
+        </div>
+        <nav class="offcanvas__menu mobile-menu">
+            <ul>
+                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>">Home</a></li>
+                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/about-us">Tentang Kami</a></li>
+                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services">Layanan</a></li>
+                <li class="active"><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/blog">Blog</a></li>
+                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/contact">Kontak</a></li>
+            </ul>
+        </nav>
     </div>
-  </section>
-  <!-- End Hero -->
+    <!-- Offcanvas Menu End -->
 
-<section class="blog_area section-padding">
-	<div class="container"> 
-		<div class="row">
-			<div class="col-lg-8 mb-5 mb-lg-0">
-				<div class="blog_left_sidebar">
-					<?php
-						if ( have_posts() ) {
-							$i = 0;
+    <!-- Header Section Begin -->
+    <header class="header-section header-normal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="header__logo">
+                        <a href="<?php echo get_bloginfo( 'wpurl' ) ?>"><img src="<?php echo get_theme_file_uri( 'assets/img/logo.png' ); ?>" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <nav class="header__menu">
+                        <ul>
+                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>">Home</a></li>
+                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/about-us">Tentang Kami</a></li>
+                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services">Layanan</a></li>
+                            <li class="active"><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/blog">Blog</a></li>
+                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/contact">Kontak</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="canvas__open">
+                <span class="fa fa-bars"></span>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
 
-							while ( have_posts() ) {
-								$i++;
+    <section class="blog-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+								<?php
+									if ( have_posts() ) {
+										$i = 0;
 
-								the_post();
+										while ( have_posts() ) {
+											$i++;
 
-								get_template_part( 'template-parts/content', get_post_type() );
-							}
+											the_post();
 
-							the_posts_pagination([
-								'prev_text' => '<img src="' . get_theme_file_uri( 'assets/images/icon--chevron-left.svg' ) . '" alt="">',
-								'next_text' => '<img src="' . get_theme_file_uri( 'assets/images/icon--chevron-right.svg' ) . '" alt="">'
-							]);
-						}
-					?>
+											get_template_part( 'template-parts/content', get_post_type() );
+										}
+
+										the_posts_pagination([
+											'prev_text' => '<img src="' . get_theme_file_uri( 'assets/images/icon--chevron-left.svg' ) . '" alt="">',
+											'next_text' => '<img src="' . get_theme_file_uri( 'assets/images/icon--chevron-right.svg' ) . '" alt="">'
+										]);
+									}
+								?>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="col-lg-4">
-				<div class="blog_right_sidebar">
-					<?php get_sidebar( 'primary' ); ?>
+				<div class="col-lg-4">
+					<div class="blog_right_sidebar">
+						<?php get_sidebar( 'primary' ); ?>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
 <?php
 get_footer();
