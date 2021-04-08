@@ -9,7 +9,7 @@ get_header();
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="hero__text">
-                                <h2>Selamat Datang di<br /> Webduy Development</h2>
+                                <h1>Selamat Datang di<br /> Webduy Development</h1>
                                 <p>Kami hadir untuk memberikan layanan pembuatan website kekinian, harga terjangkau dan mudah diakses. Tersedia untuk UKM / UMKM, sekolah, instansi pemerintah, hingga perusahaan.</p>
                             </div>
                         </div>
@@ -35,21 +35,21 @@ get_header();
                     <div class="services__item">
                         <h5>Landing Page</h5>
                         <span>Mulai dari 400K</span>
-                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Landing Page merupakan sebuah halaman website yang didesain khusus untuk melakukan <i>marketing campaign</i>. Halaman ini diperuntukan kepada pengguna yang lebih spesifik.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="services__item">
                         <h5>Company Profile</h5>
                         <span>Mulai dari 600K</span>
-                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Company Profile atau bisa disebut dengan Profil Bisnis merupakan sebuah website yang merepresentasikan perusahaan atau bisnis yang ditawarkan dalam bentuk digital.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="services__item">
                         <h5>Bundling Package</h5>
                         <span>Mulai dari 900K</span>
-                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Bundling Package merupakan paket hemat untuk dapat memiliki halaman Landing Page dan Company Profile secara bersamaan.</p>
                     </div>
                 </div>
             </div>
@@ -73,14 +73,18 @@ get_header();
                         <h4>Landing Page</h4>
                         <h1>IDR 400K</h1>
                         <ul>
-                            <li>2,5 GB web space</li>
-                            <li>Free site buiding tools</li>
-                            <li>Free domain registar</li>
+                            <li>Terdiri Dari 1 Halaman</li>
+                            <li>Gratis Hosting</li>
+                            <li>Gratis Domain .com</li>
+                            <li>Gratis Instalasi SSL</li>
+                            <li>Desain Website</li>
+                            <li>Responsive Desain (Mobile & Desktop)</li>
                             <li>24/7 Support</li>
-                            <li>Free marketing tool</li>
-                            <li>99,9% Services uptime</li>
-                            <li>30 day money back</li>
+                            <li>Dapat Terintegrasi Email</li>
+                            <li>Dapat Terintegrasi Facebook Pixel</li>
+                            <li>Dapat Terintegrasi Google Analytics</li>
                         </ul>
+                        <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/contact" class="primary-btn">Hubungi Kami</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
@@ -88,14 +92,20 @@ get_header();
                         <h4>Company Profile</h4>
                         <h1>IDR 600K</h1>
                         <ul>
-                            <li>90 GB web space</li>
-                            <li>Free site buiding tools</li>
-                            <li>Free domain registar</li>
+                            <li>Terdiri Dari 5 Halaman (Home, About Us, Dll)</li>
+                            <li>Gratis Hosting</li>
+                            <li>Gratis Domain .com</li>
+                            <li>Gratis Instalasi SSL</li>
+                            <li>Gratis Maintence 1 Tahun</li>
+                            <li>Desain Website Semua Halaman</li>
+                            <li>Responsive Desain (Mobile & Desktop)</li>
                             <li>24/7 Support</li>
-                            <li>Free marketing tool</li>
-                            <li>99,9% Services uptime</li>
-                            <li>30 day money back</li>
+                            <li>Halaman Blog Untuk SEO</li>
+                            <li>Dapat Terintegrasi Email</li>
+                            <li>Dapat Terintegrasi Facebook Pixel</li>
+                            <li>Dapat Terintegrasi Google Analytics</li>
                         </ul>
+                        <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/contact" class="primary-btn">Hubungi Kami</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
@@ -103,14 +113,21 @@ get_header();
                         <h4>Bundling Package</h4>
                         <h1>IDR 900K</h1>
                         <ul>
-                            <li>150 GB web space</li>
-                            <li>Free site buiding tools</li>
-                            <li>Free domain registar</li>
+                            <li>Company Profile Menggunakan Domain Utama</li>
+                            <li>Landing Page Menggunakan Sub Domain</li>
+                            <li>Gratis Hosting</li>
+                            <li>Gratis Domain .com</li>
+                            <li>Gratis Instalasi SSL</li>
+                            <li>Gratis Maintence 1 Tahun</li>
+                            <li>Desain Website Semua Halaman</li>
+                            <li>Responsive Desain (Mobile & Desktop)</li>
                             <li>24/7 Support</li>
-                            <li>Free marketing tool</li>
-                            <li>99,9% Services uptime</li>
-                            <li>30 day money back</li>
+                            <li>Halaman Blog Untuk Company Profile</li>
+                            <li>Dapat Terintegrasi Email</li>
+                            <li>Dapat Terintegrasi Facebook Pixel</li>
+                            <li>Dapat Terintegrasi Google Analytics</li>
                         </ul>
+                        <a href="<?php echo get_bloginfo( 'wpurl' ) ?>/contact" class="primary-btn">Hubungi Kami</a>
                     </div>
                 </div>
             </div>
@@ -170,22 +187,18 @@ get_header();
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="work__item">
-                                    <i class="fa fa-desktop"></i>
+                                    <i class="fa fa-shopping-bag"></i>
                                     <span></span>
                                     <h3>Marketing Campaign</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                                        gravida facilisis. </p>
+                                    <p>Website yang Anda bangun dapat digunakan untuk seluruh kegiatan pemasaran atau marketing yang bertujuan untuk mendatangkan leads serta meningkatkan potensi pendapatan baru.</p>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="work__item">
-                                    <i class="fa fa-shopping-bag"></i>
+                                    <i class="fa fa-desktop"></i>
                                     <span></span>
                                     <h3>Branding Campaign</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                                        gravida facilisis. </p>
+                                    <p>Website resmi saat ini menjadi salah satu informasi yang bisa dijadikan sebagai salah satu branding campaign agar lebih banyak pengguna mengetahui mengenai perusahaan Anda.</p>
                                 </div>
                             </div>
                         </div>

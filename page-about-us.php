@@ -2,57 +2,8 @@
 get_header();
 ?>
 
-    <!-- Offcanvas Menu Begin -->
-    <div class="offcanvas__menu__overlay"></div>
-    <div class="offcanvas__menu__wrapper">
-        <div class="canvas__close">
-            <span class="fa fa-times-circle-o"></span>
-        </div>
-        <div class="offcanvas__logo">
-            <a href="<?php echo get_bloginfo( 'wpurl' ) ?>"><img src="<?php echo get_theme_file_uri( 'assets/img/logo.png' ); ?>" alt=""></a>
-        </div>
-        <nav class="offcanvas__menu mobile-menu">
-            <ul>
-                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>">Home</a></li>
-                <li class="active"><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/about-us">Tentang Kami</a></li>
-                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services">Layanan</a></li>
-                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/blog">Blog</a></li>
-                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/contact">Kontak</a></li>
-            </ul>
-        </nav>
-    </div>
-    <!-- Offcanvas Menu End -->
-
-    <!-- Header Section Begin -->
-    <header class="header-section header-normal">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-3">
-                    <div class="header__logo">
-                        <a href="<?php echo get_bloginfo( 'wpurl' ) ?>"><img src="<?php echo get_theme_file_uri( 'assets/img/logo.png' ); ?>" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-9 col-md-9">
-                    <nav class="header__menu">
-                        <ul>
-                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>">Home</a></li>
-                            <li class="active"><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/about-us">Tentang Kami</a></li>
-                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services">Layanan</a></li>
-                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/blog">Blog</a></li>
-                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/contact">Kontak</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <div class="canvas__open">
-                <span class="fa fa-bars"></span>
-            </div>
-        </div>
-    </header>
-    <!-- Header End -->
-
     <!-- About Section Begin -->
-    <section class="about-section spad">
+    <section class="about-section spad mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">

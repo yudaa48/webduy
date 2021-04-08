@@ -28,11 +28,11 @@
             <span class="fa fa-times-circle-o"></span>
         </div>
         <div class="offcanvas__logo">
-            <a href="<?php echo get_bloginfo( 'wpurl' ) ?>">WEBDUY.ID</a>
+            <a href="<?php echo get_bloginfo( 'wpurl' ) ?>"><img src="<?php echo get_theme_file_uri( 'assets/img/logo.png' ); ?>"></a>
         </div>
         <nav class="offcanvas__menu mobile-menu">
             <ul>
-                <li class="active"><a href="<?php echo get_bloginfo( 'wpurl' ) ?>">Home</a></li>
+                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>">Home</a></li>
                 <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/about-us">Tentang Kami</a></li>
                 <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services">Layanan</a></li>
                 <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/blog">Blog</a></li>
@@ -49,13 +49,13 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3">
                     <div class="header__logo">
-                        <a href="<?php echo get_bloginfo( 'wpurl' ) ?>">WEBDUY.ID</a>
+                        <a href="<?php echo get_bloginfo( 'wpurl' ) ?>"><img src="<?php echo get_theme_file_uri( 'assets/img/logo.png' ); ?>"></a>
                     </div>
                 </div>
                 <div class="col-lg-9 col-md-9">
                     <nav class="header__menu">
                         <ul>
-                            <li class="active"><a href="<?php echo get_bloginfo( 'wpurl' ) ?>">Home</a></li>
+                            <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>">Home</a></li>
                             <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/about-us">Tentang Kami</a></li>
                             <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services">Layanan</a></li>
                             <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/blog">Blog</a></li>

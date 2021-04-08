@@ -250,6 +250,10 @@ ol {
   top: 0;
   width: 100%;
   z-index: 9;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  background: #24B1B8;
 }
 
 .header-section.header-normal {
@@ -324,17 +328,12 @@ ol {
   margin-right: 5px;
 }
 
-.header__logo {
-  padding-top: 30px;
-}
-
 .header__logo a {
   display: inline-block;
 }
 
 .header__menu {
   text-align: right;
-  padding-top: 32px;
 }
 
 .header__menu ul li {
@@ -492,15 +491,13 @@ ol {
   transition: all 0.3s ease-out;
 }
 
-.hero__item .hero__text h2 {
+.hero__item .hero__text h1 {
   color: #ffffff;
   font-weight: 700;
   line-height: 47px;
   text-transform: uppercase;
   margin-bottom: 28px;
   position: relative;
-  top: 100px;
-  opacity: 0;
   -webkit-transition: all 0.6s ease-out;
   -o-transition: all 0.6s ease-out;
   transition: all 0.6s ease-out;
@@ -535,10 +532,7 @@ ol {
 
 .services__item {
   background: #ffffff;
-  padding-left: 40px;
-  padding-top: 40px;
-  padding-right: 45px;
-  padding-bottom: 20px;
+  padding: 2rem;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.15);
   box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.15);
@@ -656,7 +650,7 @@ ol {
 }
 
 .pricing__item:hover .primary-btn {
-  background: #4c57d6;
+  background: #24B1B8;
   color: #ffffff;
 }
 
@@ -919,6 +913,10 @@ ol {
 
 .footer__text-about .footer__logo {
   margin-bottom: 24px;
+}
+
+.footer__text-about .footer__logo img {
+  height: 2rem !important;
 }
 
 .footer__text-about .footer__logo a {

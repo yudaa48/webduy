@@ -8,11 +8,9 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="footer__text-about">
                             <div class="footer__logo">
-                                <a href="./index.html"><img src="<?php echo get_theme_file_uri( 'assets/img/logo.png' ); ?>" alt=""></a>
+                                <a href="<?php echo get_bloginfo( 'wpurl' ) ?>"><img src="<?php echo get_theme_file_uri( 'assets/img/logo.png' ); ?>" alt=""></a>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida viverra maecen
-                                lacus vel facilisis. </p>
+                            <p>Unit usaha yang bergerak dalam bidang teknologi berbasis website untuk membantu perusahan, instansi maupun UMKM agar lebih dikenal menggunakan platform website.</p>
                             <div class="footer__social">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
@@ -25,9 +23,9 @@
                         <div class="footer__text-widget">
                             <h5>Perusahaan</h5>
                             <ul>
-                                <li><a href="#">Perusahaan</a></li>
-                                <li><a href="#">Tentang Kami</a></li>
-                                <li><a href="#">Tulisan Baru</a></li>
+                                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services">Perusahaan</a></li>
+                                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/about-us">Tentang Kami</a></li>
+                                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/blog">Tulisan Baru</a></li>
                                 <li><a href="#">Karir</a></li>
                             </ul>
                         </div>
@@ -36,9 +34,9 @@
                         <div class="footer__text-widget">
                             <h5>Layanan</h5>
                             <ul>
-                                <li><a href="#">Landing Page</a></li>
-                                <li><a href="#">Company Profile</a></li>
-                                <li><a href="#">Bundling Package</a></li>
+                                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services">Landing Page</a></li>
+                                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services#">Company Profile</a></li>
+                                <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services">Bundling Package</a></li>
                             </ul>
                         </div>
                     </div>

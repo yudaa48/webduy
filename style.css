@@ -5384,7 +5384,11 @@ ol {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 9; }
+  z-index: 9;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  background: #24B1B8; }
 
 .header-section.header-normal {
   position: relative;
@@ -5446,15 +5450,11 @@ ol {
   display: inline-block;
   margin-right: 5px; }
 
-.header__logo {
-  padding-top: 30px; }
-
 .header__logo a {
   display: inline-block; }
 
 .header__menu {
-  text-align: right;
-  padding-top: 32px; }
+  text-align: right; }
 
 .header__menu ul li {
   list-style: none;
@@ -5576,15 +5576,13 @@ ol {
   position: relative;
   transition: all 0.3s ease-out; }
 
-.hero__item .hero__text h2 {
+.hero__item .hero__text h1 {
   color: #ffffff;
   font-weight: 700;
   line-height: 47px;
   text-transform: uppercase;
   margin-bottom: 28px;
   position: relative;
-  top: 100px;
-  opacity: 0;
   transition: all 0.6s ease-out; }
 
 .hero__item .hero__text .primary-btn {
@@ -5601,10 +5599,7 @@ ol {
 
 .services__item {
   background: #ffffff;
-  padding-left: 40px;
-  padding-top: 40px;
-  padding-right: 45px;
-  padding-bottom: 20px;
+  padding: 2rem;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.15);
   margin-bottom: 40px;
@@ -5695,7 +5690,7 @@ ol {
   background: #24B1B8; }
 
 .pricing__item:hover .primary-btn {
-  background: #4c57d6;
+  background: #24B1B8;
   color: #ffffff; }
 
 .pricing__item h4 {
@@ -5909,6 +5904,9 @@ ol {
 
 .footer__text-about .footer__logo {
   margin-bottom: 24px; }
+
+.footer__text-about .footer__logo img {
+  height: 2rem !important; }
 
 .footer__text-about .footer__logo a {
   display: inline-block; }
